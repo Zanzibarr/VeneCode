@@ -1,4 +1,7 @@
 #include "VeneCode.hpp"
+#include <iostream>
+#include <string>
+#include <vector>
 
 usaghe piassa san_marco;
 

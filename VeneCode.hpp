@@ -1,7 +1,3 @@
-#include <iostream>
-#include <string>
-#include <vector>
-
 #pragma region Namespaces
     #define piassa namespace
     #define san_marco std
@@ -31,8 +27,6 @@
     #define usaghe using
     #define intanto_che while
 #pragma endregion
-
-usaghe piassa san_marco;
 
 #pragma region Types
     #define condision bool
@@ -72,10 +66,6 @@ usaghe piassa san_marco;
     #define cavaghe_uno --
 #pragma endregion
 
-#pragma region Others
-    #define fondamentae main
-#pragma region
-
 #pragma region std
     #define dime cin
     #define digo cout
@@ -84,14 +74,38 @@ usaghe piassa san_marco;
     #define dame_intero stoi
 #pragma endregion
 
+#pragma region Fstream
+    #define ociai ifstream
+    #define pena ofstream
+    #define versi open
+    #define sara close()
+    #define varda_a_riga getline
+#pragma endregion
+
 #pragma region string
     #define bastemia string
+    #define varda_e_diferense compare
+    #define cancea erase
+    #define trovame find
     #define lunghessa length()
     #define scurta substr
+    #define barata replace
 #pragma endregion
 
 #pragma region vector
     #define trenin vector
-    #define butaghe push_back
+    #define butaghe_in_culo push_back
+    #define butaghe_davanti push_front
     #define grandessa size()
 #pragma endregion
+
+#pragma region cmath
+    #define potensa pow
+    #define radisa_squadra sqrt
+    #define radisa_cuba cbrt
+    #define esponensiae exp
+#pragma endregion
+
+#pragma region Others
+    #define fondamentae main
+#pragma region
