@@ -7,7 +7,7 @@ A new way to program in c++ for "Veneti"
 - Ficca el fojo nea cartea
 - Inportar su c++ (#include "VeneCode.hpp")
 
-### varda sample.cpp
+##### varda [sample.cpp](https://github.com/Zanzibarr/VeneCode/blob/main/Sample.cpp)
 
 ## How to Use Venecode
 
@@ -15,6 +15,6 @@ A new way to program in c++ for "Veneti"
 - place the file in your project folder
 - import in c++ (#include "VeneCode.hpp")
 
-### check sample.cpp
+##### check [sample.cpp](https://github.com/Zanzibarr/VeneCode/blob/main/Sample.cpp)
 
 ![foxdemo](https://www.sightseeingtoursitaly.com/it/wp-content/uploads/sites/2/2019/08/Rialto-Bridge_Venice-Italy.jpg)
