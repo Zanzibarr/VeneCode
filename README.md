@@ -8,3 +8,5 @@ A new way to program in c++ for "Veneti"
 - import in c++ (#include "VeneCode.hpp")
 
 ### check sample.cpp
+
+![foxdemo](https://www.sightseeingtoursitaly.com/it/wp-content/uploads/sites/2/2019/08/Rialto-Bridge_Venice-Italy.jpg)
