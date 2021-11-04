@@ -1,6 +1,14 @@
 # VeneCode
 A new way to program in c++ for "Veneti"
 
+## Come se usa VeneCode
+
+- Scàricate Venecode.hpp
+- Ficca el fojo nea cartea
+- Inportar su c++ (#include "VeneCode.hpp")
+
+### varda sample.cpp
+
 ## How to Use Venecode
 
 - download Venecode.hpp
