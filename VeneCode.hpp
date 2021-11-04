@@ -1,8 +1,3 @@
-#pragma region Namespaces
-    #define piassa namespace
-    #define san_marco std
-#pragma endregion Namespaces
-
 #pragma region KeyWords
     #define fermate break
     #define situasion case
@@ -24,6 +19,7 @@
     #define decidate switch
     #define sto this
     #define provaghe try
+    #define definissi_tipo typedef
     #define usaghe using
     #define intanto_che while
 #pragma endregion
@@ -66,46 +62,70 @@
     #define cavaghe_uno --
 #pragma endregion
 
-#pragma region std
-    #define dime cin
-    #define digo cout
-    #define va_capo endl
-    #define grandessa_de sizeof
-    #define dame_intero stoi
+#pragma region Namespaces
+
+    #define piassa namespace
+
+    #pragma region std
+        #define san_marco std
+        #define fa_coppia make_pair
+        #define grandessa_de sizeof
+        #define dame_intero stoi
+    #pragma endregion
+
 #pragma endregion
 
-#pragma region Fstream
-    #define ociai ifstream
-    #define pena ofstream
-    #define versi open
-    #define sara close()
-    #define varda_a_riga getline
-#pragma endregion
+#pragma region Libraries
 
-#pragma region string
-    #define bastemia string
-    #define varda_e_diferense compare
-    #define cancea erase
-    #define trovame find
-    #define lunghessa length()
-    #define scurta substr
-    #define barata replace
-#pragma endregion
+    #pragma region cmath
+        #define potensa pow
+        #define radisa_squadra sqrt
+        #define radisa_cuba cbrt
+        #define esponensiae exp
+    #pragma endregion
 
-#pragma region vector
-    #define trenin vector
-    #define butaghe_in_culo push_back
-    #define butaghe_davanti push_front
-    #define grandessa size()
-#pragma endregion
+    #pragma region iostream
+        #define dime cin
+        #define digo cout
+        #define va_capo endl
+    #pragma endregion
 
-#pragma region cmath
-    #define potensa pow
-    #define radisa_squadra sqrt
-    #define radisa_cuba cbrt
-    #define esponensiae exp
+    #pragma region fstream
+        #define ociai ifstream
+        #define pena ofstream
+        #define versi open
+        #define sara close()
+        #define varda_a_riga getline
+    #pragma endregion
+
+    #pragma region map
+        #define mapa map
+        #define ghe_xe contains
+        #define desfa erase
+        #define primo first
+        #define secondo second
+        #define butaghe insert
+        #define grandessa size()
+    #pragma endregion
+
+    #pragma region string
+        #define bastemia string
+        #define varda_e_diferense compare
+        #define trovame find
+        #define lunghessa length()
+        #define scurta substr
+        #define barata replace
+    #pragma endregion
+
+    #pragma region vector
+        #define trenin vector
+        #define butaghe_in_culo push_back
+        #define butaghe_davanti push_front
+        #define grandessa size()
+    #pragma endregion
+
 #pragma endregion
 
 #pragma region Others
     #define fondamentae main
-#pragma region
+#pragma endregion
