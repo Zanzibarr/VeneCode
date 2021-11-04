@@ -14,7 +14,7 @@
     #define fameja class
     #define a_casso default
     #define feto do
-    #define seno else
+    #define altrimenti else
     #define vien_fora exit
     #define par_ogni for
     #define se if
