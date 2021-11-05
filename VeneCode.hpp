@@ -45,6 +45,9 @@
 
 */
 
+#ifndef VENECODE_HPP
+#define VENECODE_HPP
+
 //Parole chiave (Keywords)
 #pragma region KeyWords
     #define fermate break
@@ -217,3 +220,5 @@
 #pragma region Others
     #define fondamentae main
 #pragma endregion
+
+#endif
