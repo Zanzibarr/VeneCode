@@ -1,5 +1,6 @@
 /*
     Benvenuti in VeneCode!
+    by Francesco Colla, Luca Fantin, Riccardo Modolo e Matteo Zanella
 
     Sfruttiamo lo strumento #define per rendere più accessibile il linguaggio c++ ai Veneti.
 
@@ -100,7 +101,7 @@
         #define san_marco std
         #define fa_coppia make_pair
         #define grandessa_de sizeof
-        #define dame_intero stoi
+        #define dame_intiero stoi
     #pragma endregion
 
 #pragma endregion
