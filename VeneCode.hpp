@@ -100,6 +100,7 @@
 //Operatori logici (Logic Operators)
 #pragma region Logic_Operators
     #define xe ==
+    #define el_contrario !
     #define no_xe !=
     #define xe_al_manco >=
     #define xe_al_piu <=
@@ -109,13 +110,16 @@
 
 //Operatori aritmetici (Arithmetic Operators)
 #pragma region Arithmetic_Operators
+    #define che_xe =
     #define piu +
     #define manco -
     #define par *
     #define su /
-    #define che_xe =
+    #define resto_de %
     #define daghene +=
     #define cavaghe -=
+    #define daghene_par *=
+    #define daghene_su /=
     #define daghene_uno ++
     #define cavaghe_uno --
 #pragma endregion

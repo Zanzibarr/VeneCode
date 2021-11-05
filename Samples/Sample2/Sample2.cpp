@@ -22,6 +22,6 @@ intiero fondamentae(vodo) {
         indise daghene_uno;
         repeto che_xe (indise xe_manco_de seguito.grandessa());
     }
-
+    fojo.sara();
     ridame niente;
 }
