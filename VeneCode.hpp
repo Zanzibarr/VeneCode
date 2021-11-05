@@ -1,26 +1,51 @@
 /*
-    Benvenuti in VeneCode!
-    by Francesco Colla, Luca Fantin, Riccardo Modolo e Matteo Zanella
+    ----- [Ita] -----
 
-    Sfruttiamo lo strumento #define per rendere più accessibile il linguaggio c++ ai Veneti.
+        Benvenuti in VeneCode!
+        by Francesco Colla, Luca Fantin, Riccardo Modolo e Matteo Zanella
 
-    Sono state ridefinite variabili, parole chiavi, operatori e funzioni da vari namespaces e librerie:
+        Sfruttiamo lo strumento #define per rendere più accessibile il linguaggio c++ ai Veneti.
 
-    Namespaces:
-        -std
-    
-    Librerie:
-        -cmath
-        -iostream
-        -fstream
-        -map
-        -string
-        -vector
-    
-    Per una lettura più semplice, metodi che hanno lo stesso nome in varie situazioni, sono stati riscritti per ogni ambito.
+        Sono state ridefinite variabili, parole chiavi, operatori e funzioni da vari namespaces e librerie:
+
+        Namespaces:
+            -std
+        
+        Librerie:
+            -cmath
+            -iostream
+            -fstream
+            -map
+            -string
+            -vector
+        
+        Per una lettura più semplice, metodi che hanno lo stesso nome in varie situazioni, sono stati riscritti per ogni ambito.
+
+    ----- [Eng] -----
+
+        Welcome to VeneCode!
+        by Francesco Colla, Luca Fantin, Riccardo Modolo e Matteo Zanella
+
+        We use the feature #define to make C++ easier for Veneti
+
+        We redefined variables, keywords, operators and functions from various namespaces and libraries:
+
+        Namespaces:
+            -std
+        
+        Libraries:
+            -cmath
+            -iostream
+            -fstream
+            -map
+            -string
+            -vector
+        
+        To make it easier to browse them, methods that has the same name throught different classes has been re-wrote for every situation.
+
 */
 
-//Parole chiave
+//Parole chiave (Keywords)
 #pragma region KeyWords
     #define fermate break
     #define situasion case
@@ -49,7 +74,7 @@
     #define intanto_che while
 #pragma endregion
 
-//Tipi fondamentali
+//Tipi fondamentali (Foundamental Types)
 #pragma region Types
     #define condision bool
     #define letera char
@@ -60,7 +85,7 @@
     #define vodo void
 #pragma endregion
 
-//Valori molto usati
+//Valori molto usati (Often used values)
 #pragma region Types_Values
     #define niente 0
     #define cassada_intiera -1
@@ -69,7 +94,7 @@
     #define vero true
 #pragma endregion
 
-//Operatori logici
+//Operatori logici (Logic Operators)
 #pragma region Logic_Operators
     #define xe ==
     #define no_xe !=
@@ -79,7 +104,7 @@
     #define xe_piu_de >
 #pragma endregion
 
-//Operatori aritmetici
+//Operatori aritmetici (Arithmetic Operators)
 #pragma region Arithmetic_Operators
     #define piu +
     #define manco -
@@ -97,6 +122,7 @@
 
     #define piassa namespace
 
+    // std
     #pragma region std
         #define san_marco std
         #define fa_coppia make_pair
@@ -106,9 +132,10 @@
 
 #pragma endregion
 
-//Librerie
+//Librerie (Libraries)
 #pragma region Libraries
 
+    // <cmath>
     #pragma region cmath
         #define potensa pow
         #define radisa_squadra sqrt
@@ -116,12 +143,14 @@
         #define esponensiae exp
     #pragma endregion
 
+    // <iostream>
     #pragma region iostream
         #define dime cin
         #define digo cout
         #define va_capo endl
     #pragma endregion
 
+    // <fstream>
     #pragma region fstream
         #define ociai ifstream
         #define biro ofstream
@@ -130,6 +159,7 @@
         #define varda_a_riga getline
     #pragma endregion
 
+    // <map>
     #pragma region map
         #define mapa map
         #define che_sta at
@@ -149,6 +179,7 @@
         #define scambia swap
     #pragma endregion
 
+    // <string>
     #pragma region string
         #define bastemia string
         #define varda_e_diferense compare
@@ -158,6 +189,7 @@
         #define barata replace
     #pragma endregion
 
+    // <vector>
     #pragma region vector
         #define trenin vector
         #define daghe assing
@@ -181,7 +213,7 @@
 
 #pragma endregion
 
-//Altro
+//Altro (Other)
 #pragma region Others
     #define fondamentae main
 #pragma endregion
