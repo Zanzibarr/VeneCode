@@ -15,6 +15,8 @@
         -map
         -string
         -vector
+    
+    Per una lettura più semplice, metodi che hanno lo stesso nome in varie situazioni, sono stati riscritti per ogni ambito.
 */
 
 //Parole chiave
@@ -129,12 +131,21 @@
 
     #pragma region map
         #define mapa map
+        #define che_sta at
+        #define inissio begin
+        #define svoda clear
         #define ghe_xe contains
+        #define conta count
+        #define ghe_xe_cualcosa empty
+        #define fine end
         #define desfa erase
+        #define trovame find
         #define primo first
+        #define grandessa_massima max_size
         #define secondo second
         #define butaghe insert
         #define grandessa size
+        #define scambia swap
     #pragma endregion
 
     #pragma region string
@@ -148,9 +159,23 @@
 
     #pragma region vector
         #define trenin vector
-        #define butaghe_in_culo push_back
-        #define butaghe_davanti push_front
+        #define daghe assing
+        #define che_sta at
+        #define dame_da_drio back
+        #define inissio begin
+        #define spassio_disponibile capacity
+        #define svoda clear
+        #define ghe_xe_cualcosa empty
+        #define fine end
+        #define desfa erase
+        #define dame_davanti front
+        #define butaghe insert
+        #define grandessa_massima max_size
+        #define cava_da_drio pop_back
+        #define butaghe_da_drio push_back
+        #define cambia_grandessa resize
         #define grandessa size
+        #define scambia swap
     #pragma endregion
 
 #pragma endregion

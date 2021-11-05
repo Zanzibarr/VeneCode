@@ -12,7 +12,7 @@ intiero fondamentae(vodo) {
         digo << "Dame el " << indise << "° intiero che te vien in mente: ";
         intiero numero;
         dime >> numero;
-        seguito.butaghe_in_culo(numero);
+        seguito.butaghe_da_drio(numero);
     }
     biro fojo("lista_de_numeri.txt");
     condision repeto che_xe vero;
