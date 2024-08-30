@@ -1,4 +1,6 @@
 # VeneCode
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
 A new way to program in c++ for "Veneti"
 
 ## Come se usa VeneCode
